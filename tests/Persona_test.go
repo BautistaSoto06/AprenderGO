@@ -13,7 +13,7 @@ func TestPersona(t *testing.T) {
 		t.Error("El nombre es incorrecto")
 	}
 
-	if p.GetVocacion() != "Ing en sisteas" {
+	if p.GetVocacion() != "Ing en sistemas" {
 		t.Error("La Vocacion es Incorrecta")
 	}
 
